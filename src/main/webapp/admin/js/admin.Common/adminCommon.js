@@ -59,6 +59,10 @@ $(function () {
             updatePassword(id,password);
         }
     });
+    //登出
+    $(".logout").on("click",function () {
+        logout();
+    });
     //修改表项
     $(".panel-default .header .panel-item").on("change",function () {
         $(".keyWord").val("");

@@ -42,7 +42,7 @@
                 /user/** = anon
                 /operator/** = anon
 
-                /logout = logout
+                /admin/logout = logout
                 /** = authc
             </value>
         </property>
